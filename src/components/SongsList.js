@@ -13,7 +13,7 @@ const SongsList = (props) =>{
 
     return(
       <div className="songsList">
-      {commentNodes}
+      {songsNodes}
     </div>
     )
   }
