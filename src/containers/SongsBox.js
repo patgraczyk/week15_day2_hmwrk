@@ -27,7 +27,7 @@ class SongsBox extends Component {
     return(
       <div>
         <h3> Top 20 Songs on ITunes </h3>
-        <SongsList />
+        <SongsList songs={this.state.songs}/>
       </div>
     )
   }
